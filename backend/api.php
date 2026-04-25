@@ -5,7 +5,7 @@ declare(strict_types=1);
 // Entry point unificado: TV devices + Portal resellers
 // Backend runtime cargado por portal.alastv.com/api.php -> /api/api.php
 
-@ini_set('max_execution_time', 60);
+@ini_set('max_execution_time', '60');
 @ini_set('display_errors', '0');
 @ini_set('log_errors', '1');
 
