@@ -1,0 +1,16 @@
+{
+    "name": "nexora/player-ctv",
+    "description": "Nexora Player - Multi-platform CTV Application",
+    "license": "proprietary",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nexora\\": "backend/app/"
+        }
+    }
+}
